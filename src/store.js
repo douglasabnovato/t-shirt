@@ -15,8 +15,16 @@ import camiseta112 from './assets/camisetas/camisa-11-2.jpg';
 import camiseta122 from './assets/camisetas/camisa-12-2.jpg';
 import camiseta132 from './assets/camisetas/camisa-13-2.jpg';
 
+import moletom12 from './assets/moletons/moletons-1-2.jpg';
 import moletom22 from './assets/moletons/moletons-2-2.jpg';
 import moletom32 from './assets/moletons/moletons-3-2.jpg';
+import moletom42 from './assets/moletons/moletons-4-2.jpg';
+import moletom52 from './assets/moletons/moletons-5-2.jpg';
+import moletom62 from './assets/moletons/moletons-6-2.jpg';
+import moletom72 from './assets/moletons/moletons-7-2.jpg';
+import moletom82 from './assets/moletons/moletons-8-2.jpg';
+import moletom92 from './assets/moletons/moletons-9-2.jpg';
+import moletom102 from './assets/moletons/moletons-10-2.jpg';
 
 Vue.use(Vuex);
 
@@ -130,6 +138,70 @@ export default new Vuex.Store({
     ],
 
     moletons: [
+      {
+        name: 'MOLETOM NOTHING LASTS FOREVER',
+        price: 174.99,
+        image: moletom92,
+        stars: 1,
+        totalReviews: 123,
+        details: 'Assim como na natureza, nos pés que calçam a brasilidade, "nada se perde, tudo se transforma"! Chinelos de dedo só são verdadeiros quando estragam e precisam ser remendados com urgência utilizando um velho prego da caixa de ferramentas. Há quem pense que sapato rebentado não serve mais no pé, mas essa é uma grande ilusão. Crianças de todo o Brasil aprendem desde cedo que pra tudo existe um jeitinho e não há chinelo de borracha nessa vida que um prego não conserte. Em homenagem aos tempos de infância e com um toque de nostalgia, o moletom careca Nothing Lasts Forever chega com uma estampa minimalista e no estilo old school para exaltar o lado bom do jeitinho brasileiro.',
+      },
+      {
+        name: 'MOLETOM CACHACINHA SUPREMACY',
+        price: 229.99,
+        image: moletom102,
+        stars: 1,
+        totalReviews: 123,
+        details: 'Já dizia o grande sábio que uma dose de cachaça deixa a gente se sentindo um verdadeiro rei. Tudo bem, o sábio em questão somos nós e essa certeza veio logo após uma dose da boa e velha caninha, mas isso é só detalhe. O importante mesmo é que da cana-de-açúcar nasceu a bebida mais brasileira de todos os tempos e dessa vez é ela quem ganha espaço nas nossas estampas. Com uma estética old school cheia de personalidade, tal qual a cachaça, o moletom careca Cachacinha Supremacy passa uma mensagem clara sobre a bebida que tem como berço nosso país. Seu próximo moletom preferido espera por você!',
+      },
+      {
+        name: 'MOLETOM CANGURU LA LUNA',
+        price: 229.99,
+        image: moletom82,
+        stars: 1,
+        totalReviews: 123,
+        details: 'Há muitas luas o tempo era contado pelo brilho de prata que ilumina as noites. Cíclicas, tais como a lua, as mulheres se guiavam por ela e celebravam as mudanças de suas fases. Em uma espécie de ritual que cultua o sagrado de, simplesmente, ser, elas se permitiam a mudança, abençoadas pelos muitos ciclos que envolvem o feminino em suas múltiplas faces. No tarot, a carta A Lua evoca mistérios, sendo difícil de interpretar por seus vários significados. No geral ela fala sobre sonhos, intuição e as belezas (às vezes, nem tão belas assim) do inconsciente. Mas, é preciso estar ciente de que, tal como a lua, os caminhos têm um quê de enigma, um certo segredo que só se descobre seguindo a estrada. O moletom canguru La Luna une a força feminina que se emaranha à da lua, numa dança mística que só se entende sentindo. A estampa na frente e nas costas carrega toda a magia e mistério presentes em uma das poderosas cartas do tarot.',
+      },
+      {
+        name: 'MOLETOM CANGURU LET IT BE',
+        price: 219.99,
+        image: moletom72,
+        stars: 1,
+        totalReviews: 123,
+        details: 'Deixa de lado essa mania de cobrar o tempo ou de achar que a sua pressa exerce algum controle sobre ele. O tempo é bicho solto que só aceita ser guiado pela liberdade. Com a fluidez de uma brisa ele se permite passar, independentemente da sua vontade que esbraveja aos sete ventos. O negócio é deixar que as coisas aconteçam no momento certo. Tentar controlar as situações é uma escolha pesada demais, mais vale deixar ir e não sou só eu que digo isso. Poetas já escreviam odes ao poder do tempo, grandes músicos fizeram canções sobre o quão importante é “deixar ir” e para somar a esse grupo, a gente estampou o sentimento no nosso moletom canguru Let It Be.',
+      },
+      {
+        name: 'MOLETOM CANGURU CÉREBRO',
+        price: 219.99,
+        image: moletom62,
+        stars: 1,
+        totalReviews: 123,
+        details: 'Ah, a razão! Essa palavra pequena de significado grande que acerta por experiência e erra pela desconfiança. A razão que, ao contrário da emoção, deixa o coração meio de lado para dar lugar à voz da consciência. O cérebro sempre carregou a fama de ser a casa da razão mas, galera, fala sério, a gente está se referindo ao órgão que dá voz a todas as ideias, sejam elas toscas ou incrivelmente sensatas. Então, vamos dar um desconto pro cérebro, sem julgamentos, porque ele também tem direito a momentos de ócio. O moletom canguru Cérebro é um fenômeno que, no inverno ou no verão, faz par de jarra com o moletom Black Heart.',
+      },
+      {
+        name: 'MOLETOM CANGURU WE EXIST',
+        price: 219.99,
+        image: moletom52,
+        stars: 1,
+        totalReviews: 123,
+        details: 'Se tem uma coisa que nunca sai de moda é esse trem bom que é sentir e expressar seu amor por aí. Essa tal da verdade é bonita de se ver e faz um bem gigante se assumir com orgulho de ser quem a gente realmente é. É de peito aberto que a vida fica mais bonita e quanto mais nós aprendemos a viver, mais entendemos que a felicidade é coisa cara e preciosa. Longe dos padrões que a sociedade impõe, nosso objetivo é ser feliz e dizer em alto e bom tom todos os sentimentos que cabem no nosso coração. O moletom canguru We Exist estampa toda essa vida que transborda dentro de nós e mal cabe no peito.',
+      },
+      {
+        name: 'MOLETOM CANGURU BLACK HEART',
+        price: 219.99,
+        image: moletom42,
+        stars: 1,
+        totalReviews: 123,
+        details: 'O coração de um homem adulto é do tamanho de um punho fechado e seu peso é de, aproximadamente, 300g. Agora, pense só, é incrível que um órgão relativamente pequeno seja vital para a nossa sobrevivência. Por dia ele impulsiona mais de 70 mil litros de sangue que circulam em todo o nosso organismo, com um ritmo médio de 70 batimentos por minuto. Agora, longe das aulas de biologia, o coração continua sendo um órgão surpreendente por carregar todos os sentimentos do mundo, dos sonhos mais possíveis aos mais improváveis, das juras intermináveis de amor até aquelas amizades que são sinônimo de família. O coração é realmente apaixonante e, quanto mais sabemos sobre ele, mais instigados ficamos. Por aqui, ele ganhou um lugar especial no nosso moletom canguru com a estampa Black Heart que faz jus ao seu órgão inspirador e é um fenômeno por onde passa.',
+      },
+      {
+        name: 'MOLETOM CANGURU EDVARD MUNCH',
+        price: 219.99,
+        image: moletom12,
+        stars: 1,
+        totalReviews: 123,
+        details: 'Se tem uma coisa que grita alto sem emitir barulho algum são as emoções que, em turbilhão, se chocam dentro de nós. Na tentativa de soltar algum som elas se confundem e soam como desespero. Talvez seja por isso que Edvard Munch decidiu pintar tamanho sentimento que só mesmo nas cores encontra seu lugar. O Grito é a expressão de muitas emoções, é o amontoado de tudo aquilo que cabe no peito mas trava na garganta, tornando a voz algo inútil. Não é preciso som algum para sentir o desespero presente na obra de Munch, na verdade, o silêncio de se admirar um quadro desses é mais barulhento do que qualquer palavra. O moletom canguru Edvard Munch fala de tanta coisa e expressa tanta coisa que só mesmo uma estampa sem palavra alguma poderia fazer jus.',
+      },
       {
         name: 'MOLETOM CANGURU PRETO NADA BÁSICO',
         price: 219.99,

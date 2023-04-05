@@ -2,6 +2,18 @@
 
 Projeto com especificações a seguir.
 
+- [ ] camisetas
+
+- [ ] moletons
+
+- [ ] informações
+
+- [ ] cores
+
+- [ ] consumir api
+
+- [ ] favicon
+
 ### Referências
 
 - [guide](http://vuejs-templates.github.io/webpack/)
