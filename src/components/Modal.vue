@@ -2,10 +2,10 @@
   <div>
     <transition name="fade">
       <div class="modal" v-show="showModal">
-        <h3>Details</h3>
+        <h3>Criativo</h3>
         <slot></slot>
         <btn btnColor="btn btn-small btn-danger" @click.native="closeModal()">
-          Close
+          Fechar
         </btn>
       </div>
     </transition>
