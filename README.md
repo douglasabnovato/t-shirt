@@ -4,6 +4,7 @@ As especificações do projeto:
 
 - [x] camisetas
 - [x] moletons
+- [x] adicionar mais produtos: camisetas estampas, camisetas básicas, acessórios
 - [x] informações dos produtos
 - [ ] cores de identificação
 - [x] favicon
@@ -11,28 +12,30 @@ As especificações do projeto:
 ### Funcionalidades do projeto
 
 - [ ] utilizar uma API para os dados
-- [ ] catálogo de produtos
+- [x] catálogo de produtos
 - [ ] catálogo de produtos com filtro
 - [ ] catálogo de produtos com paginação
-- [ ] página de produto
+- [x] página de produto
 - [ ] página de produto com seleção de tamanho
 - [ ] página de produto com ação de compra
-- [ ] página do carrinho
+- [x] página do carrinho
 - [ ] página de carrinho com alteração de quantidade
 - [ ] página de carrinho com adição de cupom
 
 ### Tecnologias do projeto
 
 - [ ] Larabel
-- [ ] Vue.js na interface
-- [ ] consumir uma API
-- [ ] Github para o versionamento do repositório
+- [x] Vue.js na interface
+- [ ] consumir API
+- [x] Github para o versionamento do repositório
 - [x] instruções no README do projeto
 
 ### Revisão do Projeto
 
 - [ ] Modal de informações: estilizar com cores
 - [ ] Modal de informações: ajustar tamanho a quantidade do texto
+- [ ] Menu: logo da loja
+- [ ] Menu: aperfeiçoar design e cores
 
 ### Gestão do projeto
 

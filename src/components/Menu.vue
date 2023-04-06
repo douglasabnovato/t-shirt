@@ -1,22 +1,28 @@
 <template>
   <header class="header">
+    <slot></slot>
     <nav class="nav">
       <ul class="nav-links">
         <li class="link">
           <router-link to="/">Todos Produtos</router-link>
         </li>
         <li class="link">
-          <router-link to="/moletons">Moletons</router-link>
+          <router-link to="/camisetas">Camisetas</router-link>
         </li>
         <li class="link">
-          <router-link to="/camisetas">Camisetas</router-link>
+          <router-link to="/camisetasestampas">Camisetas Estampas</router-link>
+        </li>
+        <li class="link">
+          <router-link to="/camisetasbasicas">Camisetas Básicas</router-link>
+        </li>
+        <li class="link">
+          <router-link to="/moletons">Moletons</router-link>
         </li>
         <li class="link">
           <router-link to="/acessorios">Acessorios</router-link>
         </li>
       </ul>
     </nav>
-    <slot></slot>
   </header>
 </template>
 
@@ -29,7 +35,7 @@ export default {
   .header {
     width: 100%;
     height: 70px;
-    background-color: #333333;
+    background-color: rgb(219, 116,23);
     box-sizing: border-box;
     padding: .5em;
     display: flex;
@@ -38,7 +44,7 @@ export default {
   }
 
   .nav {
-    width: 600px;
+    width: 90vw;
   }
 
   .nav-links {

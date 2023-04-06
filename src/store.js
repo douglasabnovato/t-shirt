@@ -124,7 +124,7 @@ export default new Vuex.Store({
       },
     ],
 
-    camisetas: [
+    camisetasestampas: [
       {
         name: 'CAMISA TERRA BRASILIS',
         price: 174.99,
@@ -157,6 +157,9 @@ export default new Vuex.Store({
         totalReviews: 90,
         details: 'Já parou pra pensar na imensidão do cosmos? Estamos falando do humilde amontoado de todas as coisas do universo, das galáxias mais novas até as estrelas de bilhões de anos que enfeitam o céu. Mas, talvez, o mais encantador sobre o cosmos seja o fato de tudo coexistir em harmonia. A beleza, a ordem e a sintonia que dão o tom da nossa vida é organizada em todo o seu caos. Que chique parar pra pensar nessas coisas e se reconhecer como um pedacinho dessa imensidão! A gente mergulhou de cabeça nessa ideia e decidiu trazer toda a beleza para a camisa Cosmos.',
       },
+    ],
+
+    camisetasbasicas: [
       {
         name: 'CAMISETA BOLSO SUCUPIRA',
         price: 84.99,
@@ -189,6 +192,9 @@ export default new Vuex.Store({
         totalReviews: 90,
         details: 'A camiseta verde sálvia é um alívio para qualquer conjunto bagunçado, é um respiro entre o caos daquelas listras tão urbanas, é um cantinho de paz entre todas as informações do guarda-roupa. Sálvia é uma plantinha folhosa sem vergonha que entrosa fácil com qualquer jardim. A sálvia é como uma camiseta básica da roupagem dos canteiros e é como as demais plantas: bonitinha e acessível.',
       },
+    ],
+
+    camisetas: [
       {
         name: 'CAMISETA GOGH NIGHT',
         price: 94.99,
@@ -380,8 +386,10 @@ export default new Vuex.Store({
     getCamisetas: state => state.camisetas,
     getMoletons: state => state.moletons,
     getAcessorios: state => state.acessorios,
+    getCamisetasEstampas: state => state.camisetasestampas,
+    getCamisetasBasicas: state => state.camisetasbasicas,
 
-    getAllProducts: state => state.camisetas.concat(state.moletons).concat(state.acessorios),
+    getAllProducts: state => state.camisetas.concat(state.moletons).concat(state.acessorios).concat(state.camisetasestampas).concat(state.camisetasbasicas),
 
     getProductsInCart: state => state.cartProducts,
     getCurrentProduct: state => state.currentProduct,

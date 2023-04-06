@@ -4,6 +4,8 @@ import AllProducts from '../components/AllProducts';
 import AllMoletons from '../components/AllMoletons';
 import AllCamisetas from '../components/AllCamisetas';
 import AllAcessorios from '../components/AllAcessorios';
+import AllCamisetasEstampas from '../components/AllCamisetasEstampas';
+import AllCamisetasBasicas from '../components/AllCamisetasBasicas';
 import Product from '../components/Product';
 import CartCheckout from '../components/CartCheckout';
 
@@ -30,6 +32,16 @@ export default new Router({
       path: '/acessorios',
       name: 'Acessorios',
       component: AllAcessorios,
+    },
+    {
+      path: '/camisetasestampas',
+      name: 'Camisetas Estampas',
+      component: AllCamisetasEstampas,
+    },
+    {
+      path: '/camisetasbasicas',
+      name: 'Camisetas Básicas',
+      component: AllCamisetasBasicas,
     },
     {
       path: '/product-details',
