@@ -4,7 +4,6 @@ import Vuex from 'vuex';
 import camiseta12 from './assets/camisetas/camisa-1-2.jpg';
 import camiseta22 from './assets/camisetas/camisa-2-2.jpg';
 import camiseta32 from './assets/camisetas/camisa-3-2.jpg';
-import camiseta42 from './assets/camisetas/camisa-4-2.jpg';
 import camiseta52 from './assets/camisetas/camisa-5-2.jpg';
 import camiseta62 from './assets/camisetas/camisa-6-2.jpg';
 import camiseta72 from './assets/camisetas/camisa-7-2.jpg';
@@ -14,6 +13,16 @@ import camiseta102 from './assets/camisetas/camisa-10-2.jpg';
 import camiseta112 from './assets/camisetas/camisa-11-2.jpg';
 import camiseta122 from './assets/camisetas/camisa-12-2.jpg';
 import camiseta132 from './assets/camisetas/camisa-13-2.jpg';
+
+import camisetabasica12 from './assets/camisetas/camisa-basica-1-2.jpg';
+import camisetabasica22 from './assets/camisetas/camisa-basica-2-2.jpg';
+import camisetabasica32 from './assets/camisetas/camisa-basica-3-2.jpg';
+import camisetabasica42 from './assets/camisetas/camisa-basica-4-2.jpg';
+
+import camisetaestampa12 from './assets/camisetas/camisa-estampa-1-2.jpg';
+import camisetaestampa22 from './assets/camisetas/camisa-estampa-2-2.jpg';
+import camisetaestampa32 from './assets/camisetas/camisa-estampa-3-2.jpg';
+import camisetaestampa42 from './assets/camisetas/camisa-estampa-4-2.jpg';
 
 import moletom12 from './assets/moletons/moletons-1-2.jpg';
 import moletom22 from './assets/moletons/moletons-2-2.jpg';
@@ -26,11 +35,160 @@ import moletom82 from './assets/moletons/moletons-8-2.jpg';
 import moletom92 from './assets/moletons/moletons-9-2.jpg';
 import moletom102 from './assets/moletons/moletons-10-2.jpg';
 
+import acessorio12 from './assets/acessorios/acessorio-1-2.jpg';
+import acessorio22 from './assets/acessorios/acessorio-2-2.jpg';
+import acessorio32 from './assets/acessorios/acessorio-3-2.jpg';
+import acessorio42 from './assets/acessorios/acessorio-4-2.jpg';
+import acessorio52 from './assets/acessorios/acessorio-5-2.jpg';
+import acessorio62 from './assets/acessorios/acessorio-6-2.jpg';
+import acessorio72 from './assets/acessorios/acessorio-7-2.jpg';
+import acessorio82 from './assets/acessorios/acessorio-8-2.jpg';
+import acessorio92 from './assets/acessorios/acessorio-9-2.jpg';
+
 Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
+    acessorios: [
+      {
+        name: 'SKETCHBOOK PRAISE THE SUN',
+        price: 64.99,
+        image: acessorio12,
+        stars: 3.4,
+        totalReviews: 90,
+        details: 'O Sol é adorado por esse cavaleiro que é conhecido pelo otimismo e pela gentileza. De forma recorrente, ele vai para a ponta dos pés e abre os braços sobre a cabeça, formando um "V", para exaltar o astro. Com a expressão praise the sun, demonstra toda sua gratidão. Seu sonho? Encontrar seu próprio Sol!',
+      },
+      {
+        name: 'SKETCHBOOK SIMONE DE BEAUVOIR',
+        price: 66.99,
+        image: acessorio22,
+        stars: 3.4,
+        totalReviews: 90,
+        details: 'Em 1908, nascia a francesa Simone de Beauvoir. Embora não se considerasse uma filósofa, Simone influenciou de maneira significativa o existencialismo e a teoria feminista. É dela a frase: "Ninguém nasce mulher, torna-se". Estudou Filosofia na Universidade Sorbonne, em Paris, onde conheceu o também filósofo Jean-Paul Sartre. Os dois mantiveram um relacionamento aberto por toda a vida. Aos 23 anos, virou professora de Filosofia na Universidade de Marselha e começou a publicar ensaios, romances e livros com reflexões sobre o papel da mulher na sociedade. Morreu aos 78 anos pelo agravamento de uma pneumonia. Foi enterrada no Cemitério de Montparnasse, no mesmo túmulo de Sartre. ',
+      },
+      {
+        name: 'SKETCHBOOK TOMÁ CAFÉ',
+        price: 74.99,
+        image: acessorio32,
+        stars: 3.4,
+        totalReviews: 90,
+        details: 'Ô, menina! Café veio lá do pé, exposto à chuva, ao sol e até à escuridão. Imagina a desfeita que é pra manhã não se vestir de café depois de tamanha comunhão? Se cê não quiser, eu posso fazer esse sacrifício para não desagradar muito o dia. Pó deixar que tomar café eu vou. Café não costuma faiá.',
+      },
+      {
+        name: 'SKETCHBOOK CAFEZIM',
+        price: 64.99,
+        image: acessorio42,
+        stars: 3.4,
+        totalReviews: 90,
+        details: 'O dia pode estar frio ou quente. Pode estar sendo produtivo ou então um daqueles complicados, que você torce pra acabar logo. Pode ser um dia cheio de compromissos ou então aqueles que a gente fica só sentadinho apreciando a paisagem e pensando na vida, ouvindo uma boa música.Mas sabe quem sempre estará lá, em qualquer dia, qualquer hora e sempre vai ser uma ótima companhia? Aquele cafezim, claro! Essa estampa faz parte da nossa seleção de Sketchbook Minas Gerais.',
+      },
+      {
+        name: 'SKETCHBOOK HAUNTED BY HUMANS',
+        price: 64.99,
+        image: acessorio52,
+        stars: 3.4,
+        totalReviews: 90,
+        details: 'Que tal alguns conselhos dela? Sim, a Morte chegou por aqui toda cheia de queixas. E pra você lembrar que nem tudo está perdido, o sketchbook Haunted by Humans dá o tom.',
+      },
+      {
+        name: 'SKETCHBOOK NOVO SEGUIDOR',
+        price: 64.99,
+        image: acessorio62,
+        stars: 3.4,
+        totalReviews: 90,
+        details: 'Lembrete que a vida vai além de likes e followers? A capa do sketchbook Novo Seguidor é pra dar um click na mente de vez em quando.',
+      },
+      {
+        name: 'SKETCHBOOK E.T. BIKE',
+        price: 64.99,
+        image: acessorio72,
+        stars: 3.4,
+        totalReviews: 90,
+        details: 'Elliott ainda não tinha consciência disso na época do filme, mas ele e os amigos estavam fazendo um bem danado ao planeta quando escaparam da polícia na clássica cena do filme. Isso porque bicicletas, além de serem ótimas para manter um bom condicionamento físico, não poluem! Motivo de muito orgulho para ET e para o nosso artista convidado Rafael Correa no Sketchbook E.T. Bike!',
+      },
+      {
+        name: 'SKETCHBOOK ANGELA DAVIS',
+        price: 64.99,
+        image: acessorio82,
+        stars: 3.4,
+        totalReviews: 90,
+        details: 'Negra, ativista e feminista, Angela Davis é professora emérita do departamento de estudos feministas da Universidade da Califórnia e ícone da luta pelos direitos civis. Nasceu no Alabama, em 1944, um dos estados mais racistas do sul dos Estados Unidos. Integrou o Partido Comunista norte-americano e foi candidata à vice-presidência da República em 1980 e 1984. Ligada ao Panteras Negras, foi presa na década de 1970 e ficou mundialmente conhecida pela mobilização da campanha “Libertem Angela Davis”.John Lennon e Yoko Ono lançaram a música Angela em sua homenagem e os Rolling Stones gravaram Sweet Black Angel pedindo sua libertação.',
+      },
+      {
+        name: 'SKETCHBOOK NOT TODAY SNORLAX',
+        price: 64.99,
+        image: acessorio92,
+        stars: 3.4,
+        totalReviews: 90,
+        details: 'A gente vive na era da produtividade, sim, nós sabemos disso. É um tal de "trabalhe enquanto eles dormem" ou "não deixe para amanhã o que você pode fazer hoje" que cansa, tá? Estamos cansados de reagir. Por isso, hoje, nós decidimos dar a palavra para o Snorlax que nada tinha a dizer pois estava dormindo, coisa que você também devia fazer. Então desacelera! Tira as pilhas do relógio e jogue elas fora por um tempo. Apenas descanse, tire um tempo pra não fazer nada, aproveite a vida desacelerado e se espelhe no nosso amigo Pokémon. Só, por favor, não trabalhe enquanto eles dormem, durma também.',
+      },
+    ],
+
     camisetas: [
+      {
+        name: 'CAMISA TERRA BRASILIS',
+        price: 174.99,
+        image: camisetaestampa42,
+        stars: 3.4,
+        totalReviews: 90,
+        details: 'Quando as naus e caravelas de além mar apontaram na costa de cá, a terra se anunciou às vistas dos navegantes antes do grito famoso se anunciar. Um escândalo de proporções continentais inundou os olhos de água da tripulação portuguesa. Um oceano verde de óbvia riqueza compensava enfim os dias de ressaca e correnteza. Não deve existir presente melhor do que, depois de um infinito azul anil, dar de cara com o paraíso tropical que hoje a gente chama de Brasil. Todas as folhas, formas, troncos e grãos; todos os peixes, todas as aves, todos os ecossistemas são das matérias mais ricas para a confecção de poemas. E assim esse país se fez: com a magia que cresce do chão versada pelos fonemas de um novo português. O Brasil é uma obra de arte por essência. A música que pulsa dentro da gente é inevitável. É uma vibração que existe desde antes de conhecermos sábado, domingo e feriado. Tá no jeito de abrir os olhos e marcado no ritmo dos nossos passos. A gente aprendeu a ser bicho de cimento, mas o que corre em nossas veias ainda é a seiva do mato. A camisa de botão Terra Brasilis traz uma estampa corrida gigante pela própria natureza que traduz, na viscose, o que o tato reconhece como leveza.',
+      },
+      {
+        name: 'CAMISA TRÓPICO',
+        price: 172.99,
+        image: camisetaestampa32,
+        stars: 3.4,
+        totalReviews: 90,
+        details: 'O astro rei já deu a nota e o espetáculo começou. No céu, o dançar dos pássaros mais parece um convite para que a gente entre na roda. Enquanto isso, a brisa fresca bate no nosso rosto, levando com elas os resquícios de preocupação. Acontece que o céu seguiu o compasso e deixou tudo mais azul, tal como um dia de verão deve ser. E claro que a gente não deixaria de vestir toda a leveza radiante da estação. Principalmente quando a nossa camisa de botão consegue carregar essa essência em uma estampa corrida e cheia de vida. A camisa Trópico traz a energia dos dias de verão sem a preocupação com as chuvas fortes ao fim da tarde. É cor, detalhe, natureza e todo o jeito leve de vestir essa beleza.',
+      },
+      {
+        name: 'CAMISA CAJUEIRO',
+        price: 170.99,
+        image: camisetaestampa22,
+        stars: 3.4,
+        totalReviews: 90,
+        details: 'Nessa região tropical da América do Sul, onde o sol brilha salgado e as chuvas têm doçura, as plantas encontram amores com facilidade no vento e engravidam de toda a sorte de frutas. O Brasil é uma porção de terra polpuda onde os galhos das florestas terminam em nova vida. É um lugar em que os finais pulsam em recomeço. A culpa deve ser do sol, da terra, ou de qualquer outra dessas matérias que nos formam e são abundantes em vida. Essa camisa de botão de estampa corrida tem gosto do que a nossa terra dá e a fartura do caju sem o ônus de deixar a boca presa. A viscose é um tecido soltinho e cheio de beleza.',
+      },
+      {
+        name: 'CAMISA COSMO',
+        price: 170.99,
+        image: camisetaestampa12,
+        stars: 3.4,
+        totalReviews: 90,
+        details: 'Já parou pra pensar na imensidão do cosmos? Estamos falando do humilde amontoado de todas as coisas do universo, das galáxias mais novas até as estrelas de bilhões de anos que enfeitam o céu. Mas, talvez, o mais encantador sobre o cosmos seja o fato de tudo coexistir em harmonia. A beleza, a ordem e a sintonia que dão o tom da nossa vida é organizada em todo o seu caos. Que chique parar pra pensar nessas coisas e se reconhecer como um pedacinho dessa imensidão! A gente mergulhou de cabeça nessa ideia e decidiu trazer toda a beleza para a camisa Cosmos.',
+      },
+      {
+        name: 'CAMISETA BOLSO SUCUPIRA',
+        price: 84.99,
+        image: camisetabasica42,
+        stars: 3.4,
+        totalReviews: 90,
+        details: 'Tem uns dias que a gente olha pra cima e pensa “por que me mandou gente? Que vontade de ser árvore”, mas a gente só fala isso porque não conhece a vida de uma árvore... Ah, conhece? Fala o nome de cinco delas que não tenham o nome de uma fruta mais “eira” no final. Tô te falando... Mas aqui, no fundo do bolso dessa camiseta básica marrom sucupira, tem informação. Sucupira vem do tupi e é o nome dado para várias árvores da família das fabáceas, que são as leguminosas. Até dá para citar seis aqui, mas a gente tá falando da camiseta e ela muito bonita pra mudar de assunto. É castanha como um amendoim-bravo, real como uma sucupira-do-campo... (e já foram duas)',
+      },
+      {
+        name: 'CAMISETA BÁSICA VERDE SÁLVIA',
+        price: 74.99,
+        image: camisetabasica32,
+        stars: 3.4,
+        totalReviews: 90,
+        details: 'A camiseta verde sálvia é um alívio para qualquer conjunto bagunçado, é um respiro entre o caos daquelas listras tão urbanas, é um cantinho de paz entre todas as informações do guarda-roupa. Sálvia é uma plantinha folhosa sem vergonha que entrosa fácil com qualquer jardim. A sálvia é como uma camiseta básica da roupagem dos canteiros e é como as demais plantas: bonitinha e acessível.',
+      },
+      {
+        name: 'CAMISETA BÁSICA PRETO NOIR',
+        price: 174.99,
+        image: camisetabasica12,
+        stars: 1,
+        totalReviews: 123,
+        details: 'Físicos dizem que o preto é a ausência da cor, mas preto é como cor pra quem veste. Uma camiseta lisa preta consegue ser confortável e própria em qualquer lugar, ela carrega uma identidade própria e versátil. A camiseta básica Preto Noir foi idealizada e costurada de modo a abraçar você e seu jeito de vestir.',
+      },
+      {
+        name: 'CAMISETA BÁSICA VERDE SÁLVIA',
+        price: 64.99,
+        image: camisetabasica22,
+        stars: 3.4,
+        totalReviews: 90,
+        details: 'A camiseta verde sálvia é um alívio para qualquer conjunto bagunçado, é um respiro entre o caos daquelas listras tão urbanas, é um cantinho de paz entre todas as informações do guarda-roupa. Sálvia é uma plantinha folhosa sem vergonha que entrosa fácil com qualquer jardim. A sálvia é como uma camiseta básica da roupagem dos canteiros e é como as demais plantas: bonitinha e acessível.',
+      },
       {
         name: 'CAMISETA GOGH NIGHT',
         price: 94.99,
@@ -118,14 +276,6 @@ export default new Vuex.Store({
         stars: 5,
         totalReviews: 270,
         details: 'Segundo o último censo deboísta, realizado por nós, a capivara foi eleita como o mamífero roedor mais de boa da lagoa! Com uma plenitude que só ela tem, a capivara é um animal que definitivamente não quer guerra, pelo contrário! Além de ser amigável com todos, ela já atingiu níveis de paz de espírito que nós nem conseguimos imaginar. Por isso, passa seus dias contemplando a natureza, fazendo amizade com todos à sua volta, caminhando na beira dos rios e lagos e exercendo o seu direito de existir em paz! A camiseta minimalista De Boa Na Lagoa deu um toque zeem à nossa seleção de camisetas de animais. Uma boniteza que dá gosto!',
-      },
-      {
-        name: 'CAMISETA BÁSICA VERDE SÁLVIA',
-        price: 64.99,
-        image: camiseta42,
-        stars: 3.4,
-        totalReviews: 90,
-        details: 'A camiseta verde sálvia é um alívio para qualquer conjunto bagunçado, é um respiro entre o caos daquelas listras tão urbanas, é um cantinho de paz entre todas as informações do guarda-roupa. Sálvia é uma plantinha folhosa sem vergonha que entrosa fácil com qualquer jardim. A sálvia é como uma camiseta básica da roupagem dos canteiros e é como as demais plantas: bonitinha e acessível.',
       },
       {
         name: 'CAMISETA CARCARÁ',
@@ -229,7 +379,10 @@ export default new Vuex.Store({
   getters: {
     getCamisetas: state => state.camisetas,
     getMoletons: state => state.moletons,
-    getAllProducts: state => state.camisetas.concat(state.moletons),
+    getAcessorios: state => state.acessorios,
+
+    getAllProducts: state => state.camisetas.concat(state.moletons).concat(state.acessorios),
+
     getProductsInCart: state => state.cartProducts,
     getCurrentProduct: state => state.currentProduct,
     getShowModal: state => state.showModal,

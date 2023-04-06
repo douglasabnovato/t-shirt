@@ -11,6 +11,9 @@
         <li class="link">
           <router-link to="/camisetas">Camisetas</router-link>
         </li>
+        <li class="link">
+          <router-link to="/acessorios">Acessorios</router-link>
+        </li>
       </ul>
     </nav>
     <slot></slot>

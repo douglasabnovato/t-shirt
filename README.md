@@ -2,12 +2,11 @@
 
 As especificações do projeto:
 
-- [ ] camisetas
-- [ ] moletons
-- [ ] informações
-- [ ] cores
-- [ ] consumir api
-- [ ] favicon
+- [x] camisetas
+- [x] moletons
+- [x] informações dos produtos
+- [ ] cores de identificação
+- [x] favicon
 
 ### Funcionalidades do projeto
 
@@ -29,6 +28,11 @@ As especificações do projeto:
 - [ ] consumir uma API
 - [ ] Github para o versionamento do repositório
 - [x] instruções no README do projeto
+
+### Revisão do Projeto
+
+- [ ] Modal de informações: estilizar com cores
+- [ ] Modal de informações: ajustar tamanho a quantidade do texto
 
 ### Gestão do projeto
 
