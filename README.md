@@ -9,8 +9,6 @@ As especificações do projeto:
 - [ ] cores de identificação
 - [x] favicon
 
-
-
 ### Telas do projeto
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
