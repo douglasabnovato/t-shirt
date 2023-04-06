@@ -9,6 +9,18 @@ As especificações do projeto:
 - [ ] cores de identificação
 - [x] favicon
 
+
+
+### Telas do projeto
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="versão 1.1 do projeto" title="#t-shirt" src="./.github/tela-1.jpg" width="400px">
+  <img alt="versão 1.2 do projeto" title="#t-shirt" src="./.github/tela-2.jpg" width="400px">
+  <img alt="versão 1.3 do projeto" title="#t-shirt" src="./.github/tela-3.jpg" width="400px">
+  <img alt="versão 1.4 do projeto" title="#t-shirt" src="./.github/tela-4.jpg" width="400px">
+  <img alt="versão 1.5 do projeto" title="#t-shirt" src="./.github/tela-5.jpg" width="400px">
+</p>
+
 ### Funcionalidades do projeto
 
 - [ ] utilizar uma API para os dados
@@ -36,6 +48,7 @@ As especificações do projeto:
 - [ ] Modal de informações: ajustar tamanho a quantidade do texto
 - [ ] Menu: logo da loja
 - [ ] Menu: aperfeiçoar design e cores
+- [ ] Menu: selecionar o item que está
 
 ### Gestão do projeto
 
