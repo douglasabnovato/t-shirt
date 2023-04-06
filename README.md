@@ -30,10 +30,15 @@ As especificações do projeto:
 - [ ] Github para o versionamento do repositório
 - [x] instruções no README do projeto
 
+### Gestão do projeto
+
+- branch `main` para produção
+- branch `developer` para desenvolver as tarefas
+
 ### Build do projeto
 
-Na raiz do projeto /t-shirt, instalar as dependências com `npm install`.
-Executar o projeto com `npm run start`.
+- Na raiz do projeto /t-shirt, instalar as dependências com `npm install`.
+- Executar o projeto com `npm run start`.
 
 ### Referências
 
