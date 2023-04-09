@@ -6,7 +6,7 @@ As especificações do projeto:
 - [x] moletons
 - [x] adicionar mais produtos: camisetas estampas, camisetas básicas, acessórios
 - [x] informações dos produtos
-- [ ] cores de identificação
+- [x] cores de identificação
 - [x] favicon
 
 ### Telas do projeto
@@ -52,7 +52,7 @@ As especificações do projeto:
 ### Gestão do projeto
 
 - branch `main` para produção
-- branch `developer` para mergear as tarefas
+- branch `developer-testing` receber as resoluções das branches, tratar e testar as tarefas e mergear com a produção main.
 - branch `feat/identidade-visual`
 
 ### Build do projeto
