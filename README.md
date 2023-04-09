@@ -20,7 +20,7 @@ As especificações do projeto:
 
 ### Funcionalidades do projeto
 
-- [ ] utilizar uma API para os dados
+- [x] utilizar uma API ou Json para os dados: criado objetos em `store.js`
 - [x] catálogo de produtos
 - [ ] catálogo de produtos com filtro
 - [ ] catálogo de produtos com paginação
