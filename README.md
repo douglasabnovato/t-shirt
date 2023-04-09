@@ -54,6 +54,7 @@ As especificações do projeto:
 - branch `main` para produção
 - branch `developer-testing` receber as resoluções das branches, tratar e testar as tarefas e mergear com a produção main.
 - branch `feat/identidade-visual`
+- branch `feat/api-json`
 
 ### Build do projeto
 
