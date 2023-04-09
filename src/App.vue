@@ -61,6 +61,8 @@ export default {
   :root {
     --menu-bg: rgb(242, 239, 232);
     --menu-name-bg: rgb(30, 30, 30);
+    --menu-bg: rgb(219, 116,23);
+    --menu-text-link: #fff;
 
     --logo-bg-or: rgb(226, 111, 44);
     --logo-bg-bl: rgb(2, 129, 206);
@@ -80,6 +82,8 @@ export default {
 
     --cart-circle: #fff;
     --cart-text: #000;
+
+    --product-item: #fff;
   }
 
   body {

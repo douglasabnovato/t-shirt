@@ -30,6 +30,7 @@ As especificações do projeto:
 - [x] página do carrinho
 - [ ] página de carrinho com alteração de quantidade
 - [ ] página de carrinho com adição de cupom
+- [ ] persistir o conteúdo
 
 ### Tecnologias do projeto
 
@@ -46,11 +47,13 @@ As especificações do projeto:
 - [ ] Menu: logo da loja
 - [ ] Menu: aperfeiçoar design e cores
 - [ ] Menu: selecionar o item que está
+- [ ] Price: corrigir o formato de exibição
 
 ### Gestão do projeto
 
 - branch `main` para produção
-- branch `developer` para desenvolver as tarefas
+- branch `developer` para mergear as tarefas
+- branch `feat/identidade-visual`
 
 ### Build do projeto
 

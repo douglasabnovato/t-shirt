@@ -31,7 +31,7 @@ export default {
 
   .product {
     width: 300px;
-    background-color: #fff;
+    background-color: var(--product-item);
     list-style: none;
     box-sizing: border-box;
     padding: 1em;
