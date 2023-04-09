@@ -1,6 +1,5 @@
 <template>
   <header class="header">
-    <slot></slot>
     <nav class="nav">
       <ul class="nav-links">
         <li class="link">
@@ -23,6 +22,7 @@
         </li>
       </ul>
     </nav>
+    <slot></slot>
   </header>
 </template>
 
@@ -35,7 +35,7 @@ export default {
   .header {
     width: 100%;
     height: 70px;
-    background-color: rgb(219, 116,23);
+    background-color: var(--menu-bg);
     box-sizing: border-box;
     padding: .5em;
     display: flex;
@@ -59,7 +59,7 @@ export default {
   }
 
   .link a {
-    color: #fff;
+    color: var(--menu-text-link);
     text-decoration: none;
   }
 </style>

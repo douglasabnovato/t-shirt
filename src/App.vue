@@ -57,13 +57,42 @@ export default {
 <style>
   @import './assets/css/normalize.css';
   @import url('https://fonts.googleapis.com/css?family=Roboto');
+
+  :root {
+    --menu-bg: rgb(242, 239, 232);
+    --menu-name-bg: rgb(30, 30, 30);
+    --menu-bg: rgb(219, 116,23);
+    --menu-text-link: #fff;
+
+    --logo-bg-or: rgb(226, 111, 44);
+    --logo-bg-bl: rgb(2, 129, 206);
+
+    --main-bg: rgb(245, 245, 245);
+    --body-bg: #FAFAFA;
+
+    --font-title: rgb(30, 30, 30);
+    --font-text: rgb(111, 111, 111);
+    --font-price: rgb(143, 166, 200);
+
+    --botton-cuppons: rgb(234, 77, 58);
+    --botton-add: rgb(32, 31, 29);
+    --botton-cart: rgb(2, 129, 206);
+
+    --link-details:#000;
+
+    --cart-circle: #fff;
+    --cart-text: #000;
+
+    --product-item: #fff;
+  }
+
   body {
     font-family: 'Roboto', sans-serif;
-    background-color: #FAFAFA;
+    background-color: var(--body-bg);
   }
 
   a {
-    color: #000;
+    color: var(--link-details);
     text-decoration: none;
   }
 
@@ -84,8 +113,8 @@ export default {
     position: absolute;
     top: -5px;
     right: -5px;
-    background-color: #fff;
-    color: #000;
+    background-color: var(--cart-circle);
+    color: var(--cart-text);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,4 +146,5 @@ export default {
       opacity: 1;
     }
   }
+
 </style>
