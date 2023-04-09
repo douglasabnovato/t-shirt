@@ -36,7 +36,7 @@ As especificações do projeto:
 
 - [ ] Larabel
 - [x] Vue.js na interface
-- [ ] consumir API
+- [x] consumir API
 - [x] Github para o versionamento do repositório
 - [x] instruções no README do projeto
 
