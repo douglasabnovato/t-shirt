@@ -42,7 +42,7 @@ As especificações do projeto:
 
 ### Revisão do Projeto
 
-- [ ] Página de detalhes de produto: estilizar com cores
+- [x] Página de detalhes de produto: estilizar com cores
 - [ ] Modal de informações: estilizar com cores
 - [ ] Modal de informações: ajustar tamanho a quantidade do texto
 - [ ] Menu: logo da loja

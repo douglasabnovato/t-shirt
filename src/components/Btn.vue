@@ -17,7 +17,7 @@ export default {
     cursor: pointer;
     box-sizing: border-box;
     border-radius: 3px;
-    color: #fff;
+    color: var(--btn-text);
     display: flex;
     justify-content: space-around;
     position: relative;
@@ -36,15 +36,15 @@ export default {
   }
 
   .btn-info {
-    background-color: #2D9CDB;
+    background-color: var(--btn-info)
   }
 
   .btn-sucess {
-    background-color: #27AE60;
+    background-color: var(--btn-sucess)
   }
 
   .btn-danger {
-    background-color: #e74c3c;
+    background-color: var(--btn-danger);
   }
 
   .btn img {
