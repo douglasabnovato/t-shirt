@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <mainMenu>
-      <btn btnColor="btn btn-small btn-info btn-popup"
+      <btn btnColor="btn btn-small btn-sucess btn-popup"
          :cartIcon="true"
          @click.native="showPopupCart()">
          Carrinho

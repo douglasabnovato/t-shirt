@@ -32,9 +32,10 @@ export default {
 </script>
 
 <style scoped>
+
   .header {
     width: 100%;
-    height: 70px;
+    height: 100px;
     background-color: var(--menu-bg);
     box-sizing: border-box;
     padding: .5em;
