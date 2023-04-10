@@ -42,12 +42,16 @@ export default {
 </script>
 
 <style scoped>
+
+  h3 {
+    color: var(--font-modal-title);
+  }
+
   .modal {
     width: 100%;
-    max-width: 500px;
-    height: 300px;
+    max-width: 600px;
     box-sizing: border-box;
-    padding: 1em;
+    padding: 3.5em;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -71,6 +75,7 @@ export default {
   .fade-enter-active, .fade-leave-active {
     transition: all .7s;
   }
+
   .fade-enter, .fade-leave-to {
     opacity: 0;
   }
