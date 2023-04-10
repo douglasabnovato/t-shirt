@@ -42,6 +42,7 @@ As especificações do projeto:
 
 ### Revisão do Projeto
 
+- [x] Página de detalhes de produto: estilizar com cores
 - [ ] Modal de informações: estilizar com cores
 - [ ] Modal de informações: ajustar tamanho a quantidade do texto
 - [ ] Menu: logo da loja
@@ -55,6 +56,7 @@ As especificações do projeto:
 - branch `developer-testing` receber as resoluções das branches, tratar e testar as tarefas e mergear com a produção main.
 - branch `feat/identidade-visual`
 - branch `feat/api-json`
+- branch `feat/details-product`
 
 ### Build do projeto
 

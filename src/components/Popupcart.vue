@@ -5,10 +5,10 @@
       <img :src="product.image" alt="" class="item-thumb">
       <h3 class="item-name">{{ product.name }}</h3>
       <span class="item-amount">Quantidade: 1</span>
-      <span class="item-price">R$ {{ product.price }}, 00</span>
+      <span class="item-price">R$ {{ product.price }} </span>
     </div>
     <div class="cart-info" v-if="hasProduct()">
-      <span>Total: R$ {{ totalPrice() }}, 00</span>
+      <span>Total: R$ {{ totalPrice() }} </span>
       <router-link to="/checkout">
         <btn btnColor="btn btn-small btn-info"
           @click.native="showPopupCart()">

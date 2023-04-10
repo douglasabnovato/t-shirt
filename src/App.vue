@@ -84,6 +84,13 @@ export default {
     --cart-text: #000;
 
     --product-item: #fff;
+    --product-box: #fff;
+
+    --btn-info:#000;;
+    --btn-details:#27AE60;
+    --btn-sucess: rgb(2, 129, 206);
+    --btn-danger:#e74c3c;
+    --btn-text:#fff;
   }
 
   body {
