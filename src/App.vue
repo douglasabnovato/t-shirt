@@ -73,6 +73,7 @@ export default {
     --font-title: rgb(30, 30, 30);
     --font-text: rgb(111, 111, 111);
     --font-price: rgb(143, 166, 200);
+    --font-modal-title: rgb(226, 111, 44);
 
     --botton-cuppons: rgb(234, 77, 58);
     --botton-add: rgb(32, 31, 29);
@@ -89,7 +90,8 @@ export default {
     --btn-info:#000;;
     --btn-details:#27AE60;
     --btn-sucess: rgb(2, 129, 206);
-    --btn-danger:#e74c3c;
+    --btn-danger:rgb(219, 116,23);
+    --btn-no:#e74c3c;
     --btn-text:#fff;
   }
 
