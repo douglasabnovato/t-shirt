@@ -6,7 +6,7 @@
     </div>
     <div class="product-info">
       <h2 class="product-title">{{ currentProduct.name }}</h2>
-      <span class="product-price">R$ {{ currentProduct.price }}, 00</span>
+      <span class="product-price">R$ {{ currentProduct.price }}</span>
       <btn btnColor="btn btn-large btn-sucess" :cartIcon="true"
       @click.native="addProductToCart(currentProduct)">
         Comprar agora
@@ -65,7 +65,7 @@ export default {
     margin: 50px auto;
     box-sizing: border-box;
     padding: 1.5em;
-    background-color: #fff;
+    background-color: var(--product-box);
     border-radius: 7px;
     display: flex;
     justify-content: space-around;
@@ -82,12 +82,14 @@ export default {
   }
 
   .product-title {
-    font-weight: normal;
+    font-size: 2em;
+    font-weight: bold;
   }
 
   .product-price {
-    font-size: 2em;
+    font-size: 1.5em;
     font-weight: bolder;
+    color: var(--font-price);
   }
 
   .product-box button {

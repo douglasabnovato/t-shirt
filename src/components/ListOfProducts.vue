@@ -9,8 +9,8 @@
         </h2>
       </router-link>
       <div class="product-price">
-        <span>R$ {{ product.price }}, 00</span>
-        <span>10 x {{ Math.round(product.price / 10) }}, 00 </span>
+        <span>R$ {{ product.price }} </span>
+        <span>10 x {{ Math.round(product.price / 10) }}.00 </span>
       </div>
 
       <btn btnColor="btn btn-large btn-sucess"
