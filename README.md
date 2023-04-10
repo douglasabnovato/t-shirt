@@ -30,7 +30,6 @@ As especificações do projeto:
 - [x] página do carrinho
 - [ ] página de carrinho com alteração de quantidade
 - [ ] página de carrinho com adição de cupom
-- [ ] persistir o conteúdo
 
 ### Tecnologias do projeto
 
@@ -62,6 +61,7 @@ As especificações do projeto:
 - [ ] botão para voltar ao topo
 - [ ] menu fixado ao topo
 - [ ] menu: sinalizar o item selecionado
+- [ ] persistir o conteúdo
 
 ### Build do projeto
 
