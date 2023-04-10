@@ -43,11 +43,8 @@ As especificações do projeto:
 ### Revisão do Projeto
 
 - [x] Página de detalhes de produto: estilizar com cores
-- [ ] Modal de informações: estilizar com cores
-- [ ] Modal de informações: ajustar tamanho a quantidade do texto
-- [ ] Menu: logo da loja
-- [ ] Menu: aperfeiçoar design e cores
-- [ ] Menu: selecionar o item que está
+- [ ] Modal de informações: estilizar com cores e ajustar tamanho a quantidade do texto
+- [ ] Menu: logo da loja, aperfeiçoar design e cores e selecionar o item que está
 - [ ] Price: corrigir o formato de exibição
 
 ### Gestão do projeto
@@ -57,6 +54,7 @@ As especificações do projeto:
 - branch `feat/identidade-visual`
 - branch `feat/api-json`
 - branch `feat/details-product`
+- branch `feat/modal-design`
 
 ### Build do projeto
 
