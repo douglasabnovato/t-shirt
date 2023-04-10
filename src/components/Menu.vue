@@ -44,7 +44,7 @@ export default {
   }
 
   .nav {
-    width: 90vw;
+    width: 100%;
   }
 
   .nav-links {
