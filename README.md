@@ -55,6 +55,7 @@ As especificações do projeto:
 - branch `feat/api-json`
 - branch `feat/details-product`
 - branch `feat/modal-design`
+- branch `feat/menu-design`
 
 ### Build do projeto
 
