@@ -16,6 +16,7 @@ As especificações do projeto:
   <img alt="versão 1.2 do projeto" title="#t-shirt" src="./.github/tela-2.jpg" width="400px">
   <img alt="versão 1.3 do projeto" title="#t-shirt" src="./.github/tela-3.jpg" width="400px">
   <img alt="versão 1.4 do projeto" title="#t-shirt" src="./.github/tela-4.jpg" width="400px">
+  <img alt="versão 1.4 do projeto" title="#t-shirt" src="./.github/tela-5.jpg" width="400px">
 </p>
 
 ### Funcionalidades do projeto
@@ -44,7 +45,7 @@ As especificações do projeto:
 - [x] Página de detalhes de produto: estilizar com cores
 - [x] Modal de informações: estilizar com cores e ajustar tamanho a quantidade do texto
 - [x] Menu: aperfeiçoar design e logo da loja
-- [ ] Price: corrigir o formato de exibição
+- [x] Price: corrigir o formato de exibição
 
 ### Gestão do projeto
 
@@ -55,6 +56,7 @@ As especificações do projeto:
 - branch `feat/details-product`
 - branch `feat/modal-design`
 - branch `feat/menu-design`
+- branch `feat/price`
 
 ### Próximo passo
 
