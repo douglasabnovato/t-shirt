@@ -1,5 +1,8 @@
 <template>
   <header class="header">
+    <div class="logo-image">
+      <img src="../assets/logo/logo-name.jpg" alt="chico rei">
+    </div>
     <nav class="nav">
       <ul class="nav-links">
         <li class="link">
@@ -27,12 +30,15 @@
 </template>
 
 <script>
+
 export default {
 };
 </script>
 
 <style scoped>
   .header {
+    /*position: fixed;
+    z-index: 10;*/
     width: 100%;
     height: 70px;
     background-color: var(--menu-bg);
@@ -61,5 +67,9 @@ export default {
   .link a {
     color: var(--menu-text-link);
     text-decoration: none;
+  }
+
+  .logo-image img{
+    width: 8vw;
   }
 </style>
