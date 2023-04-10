@@ -15,7 +15,7 @@
       <router-link to="./">Voltar a lista de produtos</router-link>
     </div>
     <h3 class="total" v-if="hasProduct()">
-      Total: R$ {{ totalPrice() }}
+      Total: R$ {{ totalPrice().toFixed(2) }}
     </h3>
   </div>
 </template>

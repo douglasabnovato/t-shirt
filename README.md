@@ -44,7 +44,7 @@ As especificações do projeto:
 - [x] Página de detalhes de produto: estilizar com cores
 - [x] Modal de informações: estilizar com cores e ajustar tamanho a quantidade do texto
 - [x] Menu: aperfeiçoar design e logo da loja
-- [ ] Price: corrigir o formato de exibição
+- [x] Price: corrigir o formato de exibição
 
 ### Gestão do projeto
 
@@ -55,6 +55,7 @@ As especificações do projeto:
 - branch `feat/details-product`
 - branch `feat/modal-design`
 - branch `feat/menu-design`
+- branch `feat/price`
 
 ### Próximo passo
 

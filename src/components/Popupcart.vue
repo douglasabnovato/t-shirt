@@ -2,7 +2,7 @@
   <div class="box">
     <span v-if="!hasProduct()">Nenhum produto :/</span>
     <div class="cart-info" v-if="hasProduct()">
-      <span>Total: R$ {{ totalPrice() }} </span>
+      <span>Total: R$ {{ totalPrice().toFixed(2) }} </span>
       <router-link to="/checkout">
         <btn btnColor="btn btn-small btn-info"
           @click.native="showPopupCart()">
