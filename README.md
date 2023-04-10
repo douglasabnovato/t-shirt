@@ -20,7 +20,7 @@ As especificações do projeto:
 
 ### Funcionalidades do projeto
 
-- [ ] utilizar uma API para os dados
+- [x] utilizar uma API ou Json para os dados: criado objetos em `store.js`
 - [x] catálogo de produtos
 - [ ] catálogo de produtos com filtro
 - [ ] catálogo de produtos com paginação
@@ -36,7 +36,7 @@ As especificações do projeto:
 
 - [ ] Larabel
 - [x] Vue.js na interface
-- [ ] consumir API
+- [x] consumir API
 - [x] Github para o versionamento do repositório
 - [x] instruções no README do projeto
 
@@ -54,6 +54,7 @@ As especificações do projeto:
 - branch `main` para produção
 - branch `developer-testing` receber as resoluções das branches, tratar e testar as tarefas e mergear com a produção main.
 - branch `feat/identidade-visual`
+- branch `feat/api-json`
 
 ### Build do projeto
 
