@@ -30,7 +30,6 @@ As especificações do projeto:
 - [x] página do carrinho
 - [ ] página de carrinho com alteração de quantidade
 - [ ] página de carrinho com adição de cupom
-- [ ] persistir o conteúdo
 
 ### Tecnologias do projeto
 
@@ -44,7 +43,7 @@ As especificações do projeto:
 
 - [x] Página de detalhes de produto: estilizar com cores
 - [x] Modal de informações: estilizar com cores e ajustar tamanho a quantidade do texto
-- [ ] Menu: logo da loja, aperfeiçoar design e cores e selecionar o item que está
+- [x] Menu: aperfeiçoar design e logo da loja
 - [ ] Price: corrigir o formato de exibição
 
 ### Gestão do projeto
@@ -55,6 +54,14 @@ As especificações do projeto:
 - branch `feat/api-json`
 - branch `feat/details-product`
 - branch `feat/modal-design`
+- branch `feat/menu-design`
+
+### Próximo passo
+
+- [ ] botão para voltar ao topo
+- [ ] menu fixado ao topo
+- [ ] menu: sinalizar o item selecionado
+- [ ] persistir o conteúdo
 
 ### Build do projeto
 

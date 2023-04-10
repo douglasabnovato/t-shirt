@@ -1,12 +1,6 @@
 <template>
   <div class="box">
     <span v-if="!hasProduct()">Nenhum produto :/</span>
-    <div v-for="(product, index) in getProductsInCart"  :key="index" class="box-item">
-      <img :src="product.image" alt="" class="item-thumb">
-      <h3 class="item-name">{{ product.name }}</h3>
-      <span class="item-amount">Quantidade: 1</span>
-      <span class="item-price">R$ {{ product.price }} </span>
-    </div>
     <div class="cart-info" v-if="hasProduct()">
       <span>Total: R$ {{ totalPrice() }} </span>
       <router-link to="/checkout">
@@ -15,6 +9,12 @@
           Ver carrinho
         </btn>
       </router-link>
+    </div>
+    <div v-for="(product, index) in getProductsInCart"  :key="index" class="box-item">
+      <img :src="product.image" alt="" class="item-thumb">
+      <h3 class="item-name">{{ product.name }}</h3>
+      <span class="item-amount">Quantidade: 1</span>
+      <span class="item-price">R$ {{ product.price }} </span>
     </div>
   </div>
 </template>
