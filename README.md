@@ -55,6 +55,7 @@ As especificações do projeto:
 - branch `feat/details-product`
 - branch `feat/modal-design`
 - branch `feat/menu-design`
+- branch `feat/price`
 
 ### Próximo passo
 
