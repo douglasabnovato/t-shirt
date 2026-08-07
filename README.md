@@ -76,3 +76,47 @@ As especificações do projeto:
 - [docs for vue-loader](http://vuejs.github.io/vue-loader)
 - [madewithvuejs](https://madewithvuejs.com/vue-cart)
 - [github-madewithvuejs](https://github.com/crisgon/vue-cart)
+
+## TO DO List do Projeto
+
+### 📱 UI/UX & Navegação
+
+- [ ] **1. Menu Fixo (Sticky Header)**
+  - **Objetivo:** Travar a barra de navegação no topo da tela.
+  - **Justificativa:** Reduz o atrito na navegação, facilitando acesso rápido ao carrinho ou outras categorias.
+
+- [ ] **2. Sinalização de Rota Ativa**
+  - **Objetivo:** Destacar visualmente qual categoria o usuário está visualizando.
+  - **Justificativa:** Melhora a localização e usabilidade dentro da loja.
+
+- [ ] **3. Botão "Voltar ao Topo"**
+  - **Objetivo:** Botão flutuante que leva o usuário direto para o início da página.
+  - **Justificativa:** Facilita o retorno ao menu e filtros em catálogos muito longos, especialmente no mobile.
+
+### 🛒 Conversão & Carrinho
+
+- [ ] **4. Seleção de Tamanhos no Produto**
+  - **Objetivo:** Exigir e permitir a escolha do tamanho (P, M, G, GG) antes de adicionar ao carrinho.
+  - **Justificativa:** Regra de negócio inegociável para vendas de vestuário.
+
+- [ ] **5. Persistência de Carrinho (Local Storage)**
+  - **Objetivo:** Salvar os produtos do carrinho na memória do navegador.
+  - **Justificativa:** Evita o abandono do pedido caso o usuário recarregue a página (F5).
+
+- [ ] **6. Gestão de Quantidade no Checkout**
+  - **Objetivo:** Inserir botões de `+` e `-` para alterar quantidades na tela do carrinho.
+  - **Justificativa:** Dá autonomia para o cliente ajustar o pedido rapidamente na etapa final.
+
+- [ ] **7. Sistema de Cupons de Desconto**
+  - **Objetivo:** Adicionar um campo para aplicar códigos promocionais no checkout.
+  - **Justificativa:** Fundamental para campanhas de marketing e aumento de conversão.
+
+### 📦 Catálogo & Arquitetura
+
+- [ ] **8. Filtros Dinâmicos**
+  - **Objetivo:** Inserir opções para filtrar a listagem de produtos por tipo, preço ou cor.
+  - **Justificativa:** Encurta a jornada de busca do cliente, acelerando a decisão de compra.
+
+- [ ] **9. Integração com API Backend (Laravel)**
+  - **Objetivo:** Substituir os dados estáticos (`store.js`) por consumo de dados reais de um banco.
+  - **Justificativa:** Prepara o sistema para ser escalável e administrável por um painel de gestão.
