@@ -23,6 +23,8 @@ module.exports = {
       vue: 'never'
     }],
 
+    'linebreak-style': 'off',
+
     'no-param-reassign': ['error', {
       props: true,
       ignorePropertyModificationsFor: [
