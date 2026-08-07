@@ -1,122 +1,119 @@
-### T-Shirt
+# 👕 T-Shirt E-commerce
 
-As especificações do projeto:
+Um projeto de e-commerce focado na venda de roupas e acessórios, desenvolvido com uma interface reativa e moderna.
 
-- [x] camisetas
-- [x] moletons
-- [x] adicionar mais produtos: camisetas estampas, camisetas básicas, acessórios
-- [x] informações dos produtos
-- [x] cores de identificação
-- [x] favicon
+## 📌 Especificações do Projeto
+- [x] Venda de camisetas
+- [x] Venda de moletons
+- [x] Expansão do catálogo: camisetas estampadas, camisetas básicas e acessórios
+- [x] Exibição detalhada de informações dos produtos
+- [x] Padronização de cores de identificação
+- [x] Favicon implementado
 
-### Telas do projeto
+---
 
-<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="versão 1.1 do projeto" title="#t-shirt" src="./.github/tela-1.jpg" width="400px">
-  <img alt="versão 1.2 do projeto" title="#t-shirt" src="./.github/tela-2.jpg" width="400px">
-  <img alt="versão 1.3 do projeto" title="#t-shirt" src="./.github/tela-3.jpg" width="400px">
-  <img alt="versão 1.4 do projeto" title="#t-shirt" src="./.github/tela-4.jpg" width="400px">
-  <img alt="versão 1.4 do projeto" title="#t-shirt" src="./.github/tela-5.jpg" width="400px">
+## 🖼️ Telas do Projeto
+
+<p align="center" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px;">
+  <img alt="versão 1.1 do projeto" title="#t-shirt" src="./.github/tela-1.jpg" width="18%">
+  <img alt="versão 1.2 do projeto" title="#t-shirt" src="./.github/tela-2.jpg" width="18%">
+  <img alt="versão 1.3 do projeto" title="#t-shirt" src="./.github/tela-3.jpg" width="18%">
+  <img alt="versão 1.4 do projeto" title="#t-shirt" src="./.github/tela-4.jpg" width="18%">
+  <img alt="versão 1.4 do projeto" title="#t-shirt" src="./.github/tela-5.jpg" width="18%">
 </p>
 
-### Funcionalidades do projeto
+---
 
-- [x] utilizar uma API ou Json para os dados: criado objetos em `store.js`
-- [x] catálogo de produtos
-- [ ] catálogo de produtos com filtro
-- [ ] catálogo de produtos com paginação
-- [x] página de produto
-- [ ] página de produto com seleção de tamanho
-- [ ] página de produto com ação de compra
-- [x] página do carrinho
-- [ ] página de carrinho com alteração de quantidade
-- [ ] página de carrinho com adição de cupom
+## ⚙️ Funcionalidades
 
-### Tecnologias do projeto
+### Catálogo e Produtos
+- [x] Utilizar uma API ou JSON para os dados (objetos criados em `store.js`)
+- [x] Catálogo geral de produtos
+- [ ] Catálogo de produtos com filtro
+- [ ] Catálogo de produtos com paginação
+- [x] Página de detalhes do produto
+- [ ] Página de produto com seleção de tamanho
+- [ ] Página de produto com ação de compra
 
-- [ ] Larabel
-- [x] Vue.js na interface
-- [x] consumir API
-- [x] Github para o versionamento do repositório
-- [x] instruções no README do projeto
+### Carrinho e Checkout
+- [x] Página do carrinho funcional
+- [ ] Página de carrinho com alteração de quantidade
+- [ ] Página de carrinho com adição de cupom de desconto
 
-### Revisão do Projeto
+---
 
-- [x] Página de detalhes de produto: estilizar com cores
-- [x] Modal de informações: estilizar com cores e ajustar tamanho a quantidade do texto
-- [x] Menu: aperfeiçoar design e logo da loja
-- [x] Price: corrigir o formato de exibição
+## 💻 Tecnologias Utilizadas
 
-### Gestão do projeto
+- [ ] **Laravel** (Backend / API - Planejado)
+- [x] **Vue.js** (Interface / Frontend)
+- [x] **Consumo de API** (Integração de dados)
+- [x] **GitHub** (Versionamento do repositório)
 
-- branch `main` para produção
-- branch `developer-testing` receber as resoluções, tratar e testar as tarefas e mergear com a produção main.
-- branch `feat/identidade-visual`
-- branch `feat/api-json`
-- branch `feat/details-product`
-- branch `feat/modal-design`
-- branch `feat/menu-design`
-- branch `feat/price`
+---
 
-### Próximo passo
+## ✅ Revisão e Melhorias Concluídas
 
-- [ ] botão para voltar ao topo
-- [ ] menu fixado ao topo
-- [ ] menu: sinalizar o item selecionado
-- [ ] persistir o conteúdo
+- [x] **Página de detalhes de produto:** Estilizada com a paleta de cores oficial.
+- [x] **Modal de informações:** Cores ajustadas e redimensionamento dinâmico conforme a quantidade de texto.
+- [x] **Menu:** Aperfeiçoamento do design e inclusão da logo da loja.
+- [x] **Preços (Price):** Correção no formato de exibição da moeda.
 
-### Build do projeto
+---
 
-- Na raiz do projeto /t-shirt, instalar as dependências com `npm install`.
-- Executar o projeto com `npm run start`.
+## 🔀 Gestão do Projeto e Branches
 
-### Referências
+O fluxo de trabalho utiliza branches específicas para organizar as entregas e garantir testes antes de ir para produção:
 
-- [guide](http://vuejs-templates.github.io/webpack/)
-- [docs for vue-loader](http://vuejs.github.io/vue-loader)
-- [madewithvuejs](https://madewithvuejs.com/vue-cart)
-- [github-madewithvuejs](https://github.com/crisgon/vue-cart)
+*   `main` ➔ Produção (Código estável).
+*   `developer-testing` ➔ Branch de homologação (recebe resoluções, trata e testa as tarefas antes do merge com a main).
 
-## TO DO List do Projeto
+**Branches de Features (Atuais/Concluídas):**
+*   `feat/identidade-visual`
+*   `feat/api-json`
+*   `feat/details-product`
+*   `feat/modal-design`
+*   `feat/menu-design`
+*   `feat/price`
+
+---
+
+## 🚀 Como Executar o Projeto (Build)
+
+1. Clone este repositório em sua máquina.
+2. Na raiz do projeto (`/t-shirt`), instale as dependências:
+```bash
+npm install
+```
+3. Execute o ambiente de desenvolvimento:
+```bash
+npm run start
+```
+
+---
+
+## 📋 TO-DO List (Próximos Passos & Backlog)
 
 ### 📱 UI/UX & Navegação
-
-- [ ] **1. Menu Fixo (Sticky Header)**
-  - **Objetivo:** Travar a barra de navegação no topo da tela.
-  - **Justificativa:** Reduz o atrito na navegação, facilitando acesso rápido ao carrinho ou outras categorias.
-
-- [ ] **2. Sinalização de Rota Ativa**
-  - **Objetivo:** Destacar visualmente qual categoria o usuário está visualizando.
-  - **Justificativa:** Melhora a localização e usabilidade dentro da loja.
-
-- [ ] **3. Botão "Voltar ao Topo"**
-  - **Objetivo:** Botão flutuante que leva o usuário direto para o início da página.
-  - **Justificativa:** Facilita o retorno ao menu e filtros em catálogos muito longos, especialmente no mobile.
+- [ ] **1. Menu Fixo (Sticky Header):** Travar a barra de navegação no topo da tela. Reduz o atrito na navegação, facilitando acesso rápido ao carrinho.
+- [ ] **2. Sinalização de Rota Ativa:** Destacar visualmente qual categoria o usuário está visualizando para melhorar a localização.
+- [ ] **3. Botão "Voltar ao Topo":** Botão flutuante para facilitar o retorno ao menu e filtros em catálogos longos.
+- [ ] **4. Persistir o Conteúdo:** Garantir que o estado da interface não se perca durante a navegação.
 
 ### 🛒 Conversão & Carrinho
-
-- [ ] **4. Seleção de Tamanhos no Produto**
-  - **Objetivo:** Exigir e permitir a escolha do tamanho (P, M, G, GG) antes de adicionar ao carrinho.
-  - **Justificativa:** Regra de negócio inegociável para vendas de vestuário.
-
-- [ ] **5. Persistência de Carrinho (Local Storage)**
-  - **Objetivo:** Salvar os produtos do carrinho na memória do navegador.
-  - **Justificativa:** Evita o abandono do pedido caso o usuário recarregue a página (F5).
-
-- [ ] **6. Gestão de Quantidade no Checkout**
-  - **Objetivo:** Inserir botões de `+` e `-` para alterar quantidades na tela do carrinho.
-  - **Justificativa:** Dá autonomia para o cliente ajustar o pedido rapidamente na etapa final.
-
-- [ ] **7. Sistema de Cupons de Desconto**
-  - **Objetivo:** Adicionar um campo para aplicar códigos promocionais no checkout.
-  - **Justificativa:** Fundamental para campanhas de marketing e aumento de conversão.
+- [ ] **5. Seleção de Tamanhos no Produto:** Exigir escolha do tamanho (P, M, G, GG) antes de adicionar ao carrinho (regra inegociável para vestuário).
+- [ ] **6. Persistência de Carrinho (Local Storage):** Salvar produtos na memória do navegador para evitar abandono de pedido ao recarregar a página (F5).
+- [ ] **7. Gestão de Quantidade no Checkout:** Botões de `+` e `-` para alterar quantidades rapidamente na etapa final.
+- [ ] **8. Cupons de Desconto:** Campo para aplicar códigos promocionais no checkout.
 
 ### 📦 Catálogo & Arquitetura
+- [ ] **9. Filtros Dinâmicos:** Opções para filtrar produtos por tipo, preço ou cor, encurtando a jornada de busca.
+- [ ] **10. Integração com API Backend (Laravel):** Substituir dados estáticos (`store.js`) por consumo real de um banco de dados.
 
-- [ ] **8. Filtros Dinâmicos**
-  - **Objetivo:** Inserir opções para filtrar a listagem de produtos por tipo, preço ou cor.
-  - **Justificativa:** Encurta a jornada de busca do cliente, acelerando a decisão de compra.
+---
 
-- [ ] **9. Integração com API Backend (Laravel)**
-  - **Objetivo:** Substituir os dados estáticos (`store.js`) por consumo de dados reais de um banco.
-  - **Justificativa:** Prepara o sistema para ser escalável e administrável por um painel de gestão.
+## 📚 Referências
+
+*   [Vue.js Webpack Guide](http://vuejs-templates.github.io/webpack/)
+*   [Docs for vue-loader](http://vuejs.github.io/vue-loader)
+*   [Made With Vue.js - Vue Cart](https://madewithvuejs.com/vue-cart)
+*   [GitHub Original Reference - crisgon/vue-cart](https://github.com/crisgon/vue-cart)
